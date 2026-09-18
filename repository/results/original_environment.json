@@ -1,0 +1,7 @@
+{
+  "torch": "2.6.0+cu124",
+  "timm": "1.0.20",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "script_sha256": "48549ccf624e43e872bb9f53b3fe24be2f41bccbbddd5a640797291f8bb76f1f",
+  "checkpoint_sha256": "ae10a582545b07408331a231af90af4f8c9cdf3da4397aeca7ef0102f43fcad2"
+}

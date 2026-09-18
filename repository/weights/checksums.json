@@ -1,0 +1,5 @@
+{
+  "base_swin.pt": "ae10a582545b07408331a231af90af4f8c9cdf3da4397aeca7ef0102f43fcad2",
+  "ce_gated.pt": "c295bd30e70e2eabccdfeda091bc2ac264966ad6c17393c16056862cbca64b51",
+  "ce_tail.pt": "6a6b582c7e840de9300ac0f8bbed9c2b6370c720523d70cd17c9d3c2971bf27f"
+}

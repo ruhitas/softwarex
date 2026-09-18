@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this software and the TOBRFV-LMID dataset when using this work."
+title: "Swin-based fusion of paired RGB and VNIR images for ToBRFV classification in tomato and pepper"
+type: software
+version: 1.0.0
+authors:
+  - family-names: "BEŞTAŞ"
+    given-names: "Mansur"
+    orcid: "https://orcid.org/0000-0002-8192-2044"
+  - family-names: "TAŞ"
+    given-names: "Ruhi"
+    email: "ruhi.tas@ostimteknik.edu.tr"
+    affiliation: "OSTİM Technical University"
+    orcid: "https://orcid.org/0000-0002-7741-7715"
+abstract: "Code and saved predictions for four-class ToBRFV image classification with CE-adapted Swin Tiny and gated RGB/VNIR fusion."

@@ -1,0 +1,52 @@
+{
+  "selected": {
+    "name": "ce_gated",
+    "method": "ce",
+    "kind": "gated",
+    "val_accuracy": 0.9557408690452576,
+    "val_loss": 0.19157740473747253,
+    "epoch": 2
+  },
+  "candidates": [
+    {
+      "name": "frozen_gated",
+      "method": "frozen",
+      "kind": "gated",
+      "val_accuracy": 0.9518922567367554,
+      "val_loss": 0.20182384550571442,
+      "epoch": 2
+    },
+    {
+      "name": "ce_linear",
+      "method": "ce",
+      "kind": "linear",
+      "val_accuracy": 0.9550994634628296,
+      "val_loss": 0.15013611316680908,
+      "epoch": 17
+    },
+    {
+      "name": "ce_gated",
+      "method": "ce",
+      "kind": "gated",
+      "val_accuracy": 0.9557408690452576,
+      "val_loss": 0.19157740473747253,
+      "epoch": 2
+    },
+    {
+      "name": "supcon_linear",
+      "method": "supcon",
+      "kind": "linear",
+      "val_accuracy": 0.9550994634628296,
+      "val_loss": 0.1724497526884079,
+      "epoch": 2
+    },
+    {
+      "name": "supcon_gated",
+      "method": "supcon",
+      "kind": "gated",
+      "val_accuracy": 0.9538165926933289,
+      "val_loss": 0.191957488656044,
+      "epoch": 2
+    }
+  ]
+}

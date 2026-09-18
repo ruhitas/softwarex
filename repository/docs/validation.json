@@ -1,0 +1,18 @@
+{
+  "source_compilation": "passed",
+  "saved_prediction_metrics": "passed",
+  "bootstrap_replicates": 5000,
+  "test_quartets": 1489,
+  "head_checkpoint_vs_saved_test_probabilities_max_abs_error": 6.556510925292969e-07,
+  "joint_model_load_and_synthetic_forward_backward": "passed",
+  "gradcam_activation_shape": [
+    4,
+    7,
+    7,
+    768
+  ],
+  "checkpoint_sha256_verification": "passed",
+  "personal_path_and_common_token_pattern_scan": "passed",
+  "full_raw_image_training_rerun": false,
+  "synthetic_smoke_inputs_used_only_for_execution_checks": true
+}

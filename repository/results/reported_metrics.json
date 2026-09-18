@@ -1,0 +1,209 @@
+{
+  "frozen_gated": {
+    "accuracy": 0.9442578912021491,
+    "macro_f1": 0.9417209659037934,
+    "confusion_matrix": [
+      [
+        247,
+        25,
+        0,
+        0
+      ],
+      [
+        17,
+        422,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        316,
+        3
+      ],
+      [
+        0,
+        0,
+        38,
+        421
+      ]
+    ],
+    "classification_report": {
+      "Tomato_Healthy": {
+        "precision": 0.9356060606060606,
+        "recall": 0.9080882352941176,
+        "f1-score": 0.9216417910447762,
+        "support": 272.0
+      },
+      "Tomato_Virus": {
+        "precision": 0.9440715883668904,
+        "recall": 0.9612756264236902,
+        "f1-score": 0.9525959367945824,
+        "support": 439.0
+      },
+      "Pepper_Healthy": {
+        "precision": 0.8926553672316384,
+        "recall": 0.9905956112852664,
+        "f1-score": 0.9390787518573551,
+        "support": 319.0
+      },
+      "Pepper_Virus": {
+        "precision": 0.9929245283018868,
+        "recall": 0.9172113289760349,
+        "f1-score": 0.9535673839184597,
+        "support": 459.0
+      },
+      "accuracy": 0.9442578912021491,
+      "macro avg": {
+        "precision": 0.9413143861266191,
+        "recall": 0.9442927004947773,
+        "f1-score": 0.9417209659037934,
+        "support": 1489.0
+      },
+      "weighted avg": {
+        "precision": 0.9465693058531712,
+        "recall": 0.9442578912021491,
+        "f1-score": 0.9443450197972264,
+        "support": 1489.0
+      }
+    }
+  },
+  "ce_linear": {
+    "accuracy": 0.9469442578912022,
+    "macro_f1": 0.943584610638419,
+    "confusion_matrix": [
+      [
+        244,
+        28,
+        0,
+        0
+      ],
+      [
+        19,
+        420,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        314,
+        4
+      ],
+      [
+        0,
+        0,
+        27,
+        432
+      ]
+    ],
+    "classification_report": {
+      "Tomato_Healthy": {
+        "precision": 0.9242424242424242,
+        "recall": 0.8970588235294118,
+        "f1-score": 0.9104477611940298,
+        "support": 272.0
+      },
+      "Tomato_Virus": {
+        "precision": 0.9375,
+        "recall": 0.9567198177676538,
+        "f1-score": 0.9470124013528749,
+        "support": 439.0
+      },
+      "Pepper_Healthy": {
+        "precision": 0.9208211143695014,
+        "recall": 0.9843260188087775,
+        "f1-score": 0.9515151515151515,
+        "support": 319.0
+      },
+      "Pepper_Virus": {
+        "precision": 0.9908256880733946,
+        "recall": 0.9411764705882353,
+        "f1-score": 0.9653631284916201,
+        "support": 459.0
+      },
+      "accuracy": 0.9469442578912022,
+      "macro avg": {
+        "precision": 0.94334730667133,
+        "recall": 0.9448202826735197,
+        "f1-score": 0.943584610638419,
+        "support": 1489.0
+      },
+      "weighted avg": {
+        "precision": 0.9479431603112817,
+        "recall": 0.9469442578912022,
+        "f1-score": 0.9469544960038113,
+        "support": 1489.0
+      }
+    }
+  },
+  "ce_gated": {
+    "accuracy": 0.9482874412357287,
+    "macro_f1": 0.9454586593726811,
+    "confusion_matrix": [
+      [
+        245,
+        27,
+        0,
+        0
+      ],
+      [
+        16,
+        423,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        318,
+        1
+      ],
+      [
+        0,
+        0,
+        33,
+        426
+      ]
+    ],
+    "classification_report": {
+      "Tomato_Healthy": {
+        "precision": 0.9386973180076629,
+        "recall": 0.9007352941176471,
+        "f1-score": 0.9193245778611632,
+        "support": 272.0
+      },
+      "Tomato_Virus": {
+        "precision": 0.94,
+        "recall": 0.9635535307517085,
+        "f1-score": 0.9516310461192351,
+        "support": 439.0
+      },
+      "Pepper_Healthy": {
+        "precision": 0.905982905982906,
+        "recall": 0.9968652037617555,
+        "f1-score": 0.9492537313432836,
+        "support": 319.0
+      },
+      "Pepper_Virus": {
+        "precision": 0.9976580796252927,
+        "recall": 0.9281045751633987,
+        "f1-score": 0.9616252821670429,
+        "support": 459.0
+      },
+      "accuracy": 0.9482874412357287,
+      "macro avg": {
+        "precision": 0.9455845759039654,
+        "recall": 0.9473146509486274,
+        "f1-score": 0.9454586593726811,
+        "support": 1489.0
+      },
+      "weighted avg": {
+        "precision": 0.950248002723063,
+        "recall": 0.9482874412357287,
+        "f1-score": 0.9483010471710952,
+        "support": 1489.0
+      }
+    }
+  }
+}

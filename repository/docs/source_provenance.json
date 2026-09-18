@@ -1,0 +1,14 @@
+{
+  "source_sha256": {
+    "tobrfv_gated_fusion_v3.py": "9c27bac4db9139ce4d200ef3981d3f39d2ea047d013edecbd57734d21e13e535",
+    "tobrfv_supcon_v4.py": "48549ccf624e43e872bb9f53b3fe24be2f41bccbbddd5a640797291f8bb76f1f",
+    "build_tobrfv_manuscript_v5_figures.py": "0e382f289a8de0d471a065c385a079cdc19e2b2355167edb53b2fa664a379b5b"
+  },
+  "adaptations": [
+    "Path configuration and portable relative manifest",
+    "Focused CE training command with original optimization functions",
+    "Saved-prediction evaluator independent of images and checkpoints",
+    "Single-quartet joint Grad-CAM CLI",
+    "Original historical candidate-selection record preserved"
+  ]
+}
